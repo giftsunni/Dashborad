@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Dashborad</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+   crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <div class="container">
+        <!-- slidebar section -->
+        <aside>
+            <div class="toggle">
+                <div class="logo">
+                   <i class="img fa-regular fa-circle"></i><span>
+                    <h3 class="h3">Gift<span class="danger">prog</span></h3>
+                </div>
+                <div class="close" id="close-btn">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+
+            <div class="sidebar">
+                <a href="#">
+                    <i class="fa-solid fa-light fa-bars"></i>
+                    <h3>Dashborad</h3>
+                </a>
+                <a href="#">
+                    <i class="fa-solid fa-light fa-user"></i>
+                    <h3>User</h3>
+                </a>
+                <a href="#">
+                    <i class="fa-solid fa-light fa-receipt"></i>
+                    <h3>History</h3>
+                </a>
+                <a href="#" class="active">
+                    <i class="fa-solid fa-bolt"></i>
+                    <h3>Analytics</h3>
+                </a>
+                <a href="#">
+                    <i class="fa-solid fa-light fa-ticket"></i>
+                    <h3>Ticket</h3>
+                    <span class="message-count">27</span>
+                </a>
+                <a href="#">
+                    <i class="fa-solid fa-boxes-stacked"></i>
+                    <h3>Sale List</h3>
+                </a>
+                <a href="#">
+                    <i class="fa-solid fa-chart-line"></i>
+                    <h3>Report</h3>
+                </a>
+
+                <a href="#">
+                    <i class="fa-solid fa-plus"></i></i>
+                    <h3>New Login</h3>
+                </a>
+
+                <a href="#">
+                    <i class="fa-solid fa-right-to-bracket"></i>
+                    <h3>Logout</h3>
+                </a>
+            </div>
+        </aside>
+        <!--main-content -->
+        <main>
+            <h2>Analytics</h2>
+            <!--Analytics-->
+            <div class="analytics">
+                <div class="sales">
+                    <div class="status">
+                        <div class="info">
+                            <h3>Total Sales</h3>
+                            <h1>$65,024</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="30"></circle>
+                            </svg>
+                            <div class="percentage"><p>+81%</p></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="Visits">
+                    <div class="status">
+                        <div class="info">
+                            <h3>Total Sales</h3>
+                            <h1>$24,981</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="30"></circle>
+                            </svg>
+                            <div class="percentage"><p>-41%</p></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="Searches">
+                    <div class="status">
+                        <div class="info">
+                            <h3>Searches</h3>
+                            <h1>14,47</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="30"></circle>
+                            </svg>
+                            <div class="percentage"><p>+20%</p></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Analy End here-->
+            <div class="new-users">
+                <h2>New users</h2>
+                <div class="user-list">
+                    <div class="user">
+                        <img src="./IMG-20210415-WA0014.jpg" alt="">
+                        <h2>Gift</h2>
+                        <p>19 Min Age</p>
+                    </div>
+                    <div class="user">
+                        <img src="./IMG-20210415-WA0014.jpg" alt="">
+                        <h2>Gift</h2>
+                        <p>10 Min Ago</p>
+                    </div>
+                    <div class="user">
+                        <img src="./IMG-20210415-WA0014.jpg" alt="">
+                        <h2>Gift</h2>
+                        <p>6 Min Age</p>
+                    </div>
+                   
+                    <div class="user">
+                        <img src="./IMG-20210415-WA0014.jpg" alt="">
+                        <h2>More</h2>
+                        <p>New user</p>
+                    </div>
+                </div>
+            </div>
+           <!-- <div class="recent-orders">
+            <h2>Recent-orders</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Course Name</th>
+                        <th>Course NUmber</th>
+                        <th>Payment</th>
+                        <th>Status</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+            <a href="#">Show All</a>
+           </div>
+           Ends here -->
+           <div class="details">
+                <div class="recentOrders">
+                    <div class="cardHeader">
+                        <h2>Recent orders</h2>
+                        <a href="#" class="btn">View All</a>
+                    </div> 
+                    <table>
+                        <thead>
+                            <tr>
+                                <td>Name</td>
+                                <td>Price</td>
+                                <td>Payment</td>
+                                <td>Status</td>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+
+                     <tbody>
+                        <tr>
+                            <td>Start refrigerator</td>
+                            <td>$1200</td>
+                            <td>Paid</td>
+                            <td><span class="Status delivered">Delivered</span></td>
+                        </tr>
+                
+                        
+                        <tr>
+                            <td>Addidas Shoes</td>
+                            <td>$6200</td>
+                            <td>Due</td>
+                            <td><span class="Status inprogress">In progress</span></td>
+                        </tr>
+                       <!-- <tr>
+                        <td>Addidas Cup</td>
+                        <td>$6200</td>
+                        <td>Due</td>
+                        <td><span class="Status return">In progress</span></td>
+                    </tr> -->
+                    </tbody>
+                    </table>
+                </div>
+                <!-- ======= New Customers ======== -->
+            </div>
+        </main>
+        <!--main section end here-->
+
+        <!--Right section begin-->
+        <div class="right-section">
+            <div class="nav">
+                <button id="meun-btn">
+                    <i class="fa-solid fa-bars-staggered"></i>
+                </button>
+                <div class="dark-mode">
+                    <i class="fa fa-bar-chart active" aria-hidden="true"></i>
+                    <i class="fa-solid fa-bell bell"></i>
+                </div>
+                <div class="profile">
+                    <p class="info">Hey!<b>Gift</b></p>
+                    <small class="text-muted">Admin</small>
+                </div>
+                <div class="imgBx">
+                    <img src="./IMG-20210415-WA0014.jpg" alt="">
+                </div>
+
+            </div>
+        
+            <!--End of nav-->
+            <div class="user-profile">
+                <div class="logo">
+                    <div class="imgBx">
+                        <img src="./use.jpg">
+                        <h2>Gift</h2>
+                        <p>Full Stack Web <strong class="strong">Developer</strong>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="reminders">
+                    <div class="header">
+                        <h2>Reminders</h2>
+                        <strong><i class="fa-solid fa-bell"></i></strong>
+                    </div>
+
+                    <div class="notification">
+                            <i class="fa-solid fa-bell active"></i>
+                        <div class="content">
+                            <div class="info">
+                                <h3>Workshop</h3>
+                                <small class="text-muted">
+                                    08:00 Am - 12:00 Pm
+                                </small>
+                            </div>
+                            <i class="fa-solid fa-check"></i>
+                        </div>
+                    <!-- </div> -->
+                    </div>
+
+                    <div class="notification deactive">
+                        <div class="icon">
+                            <i class="fa-solid fa-bell active"></i>
+                            
+                        </div>
+                        <div class="content">
+                            <div class="info">
+                                
+                                <h3>Workshop</h3>
+                                <small class="text-muted">
+                                    08:00 Am - 12:00 Pm
+                                </small>
+
+                            </div>
+                            <div class="icon">
+                                <i class="fa-brands fa-xing else"></i>
+                            </div> 
+                        </div>
+                    </div>
+
+                    <div class="notification add-reminder">
+                       <div>
+                        <i class="fa-solid fa-cross"></i>
+                            <h3>Add Reminders</h3>
+                       </div>
+
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
